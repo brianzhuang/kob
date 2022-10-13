@@ -1,4 +1,4 @@
-import { AcGameObject } from "./ACGameObject";
+import { AcGameObject } from "./AcGameObject";
 
 export class Wall extends AcGameObject {
     constructor(r, c, gamemap) {
@@ -8,7 +8,6 @@ export class Wall extends AcGameObject {
         this.c = c;
         this.gamemap = gamemap;
         this.color = "#B37226";
-
     }
 
     update() {
