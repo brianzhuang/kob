@@ -47,7 +47,7 @@ export default {
       url:"http://localhost:3000/user/account/register/",
       type: "post",
       data: {
-        username: 'brian',
+        username: 'testaccount',
         password: '123456',
         confirmedPassword: '123456'
       },
